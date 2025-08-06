@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 कृपया मुझसे संपर्क करें। धन्यवाद!`;
             
-            const whatsappUrl = `https://wa.me/919664385241?text=${encodeURIComponent(whatsappMessage)}`;
+            const whatsappUrl = `https://wa.me/918386002272?text=${encodeURIComponent(whatsappMessage)}`;
             
             // Show success message
             showNotification('आपका संदेश तैयार है! WhatsApp पर भेजने के लिए OK करें / Message ready! Click OK to send via WhatsApp', 'success');
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const serviceName = this.querySelector('h3').textContent;
                 const priceRange = this.querySelector('.price-tag').textContent;
                 const whatsappMessage = `नमस्ते! मुझे ${serviceName} (${priceRange}) के बारे में जानकारी चाहिए। कृपया मुझसे संपर्क करें। धन्यवाद!`;
-                const whatsappUrl = `https://wa.me/919664385241?text=${encodeURIComponent(whatsappMessage)}`;
+                const whatsappUrl = `https://wa.me/918386002272?text=${encodeURIComponent(whatsappMessage)}`;
                 window.open(whatsappUrl, '_blank');
             });
             
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const packageName = this.querySelector('h3').textContent;
                 const price = this.querySelector('.price').textContent;
                 const whatsappMessage = `नमस्ते! मुझे ${packageName} (${price}) के बारे में जानकारी चाहिए। कृपया मुझसे संपर्क करें। धन्यवाद!`;
-                const whatsappUrl = `https://wa.me/919664385241?text=${encodeURIComponent(whatsappMessage)}`;
+                const whatsappUrl = `https://wa.me/918386002272?text=${encodeURIComponent(whatsappMessage)}`;
                 window.open(whatsappUrl, '_blank');
             });
             
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function() {
             button.addEventListener('click', function(e) {
                 e.preventDefault();
                 const whatsappMessage = `नमस्ते! मुझे Shivaay Balloon Decoration के लिए custom quote चाहिए। कृपया मुझसे संपर्क करें। धन्यवाद!`;
-                const whatsappUrl = `https://wa.me/919664385241?text=${encodeURIComponent(whatsappMessage)}`;
+                const whatsappUrl = `https://wa.me/918386002272?text=${encodeURIComponent(whatsappMessage)}`;
                 window.open(whatsappUrl, '_blank');
             });
         });
