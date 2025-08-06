@@ -65,6 +65,13 @@
   --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
   --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
 
+@media (max-width: 768px) {
+  .main-menu { display: none; }
+  .mobile-menu { display: block; }
+  .hero-section { font-size: 18px; }
+}
+
+  
   /* Common style patterns */
   --focus-ring: 0 0 0 3px var(--color-focus-ring);
   --focus-outline: 2px solid var(--color-primary);
